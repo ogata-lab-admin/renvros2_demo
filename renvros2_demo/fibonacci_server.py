@@ -20,10 +20,10 @@ class MinimalActionServer(Node):
             self,
             Fibonacci,
             'fibonacci',
-            execute_callback=self.execute_callback,
+            execute_callback=lambda x,self_=self:self_.execute_callback(x),
             callback_group=ReentrantCallbackGroup(),
-            goal_callback=self.goal_callback,
-            cancel_callback=self.cancel_callback)
+            goal_callback=lambda x, self_=self:self_.goal_callback(x),
+            cancel_callback=lambda x,self_=self:self_.cancel_callback(x))
 
     def destroy(self):
         self._action_server.destroy()

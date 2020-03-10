@@ -6,8 +6,7 @@ import renvros2
 
 from renvros2_demo_msgs.action import Fibonacci
 
-#host = "192.168.1.24:8080"
-host = "192.168.170.219:8080"
+host = "localhost:8080"
 typeId = "RENVROS.TEST.DEVICE3"
 name   = "renvros2-tester3"
 version = "1.0.1"

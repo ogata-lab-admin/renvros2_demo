@@ -12,7 +12,8 @@ from renv_device import RenvDevice, actionHandler, event
 
 # host = "192.168.128.157:8080"
 # host = "192.168.170.219:8080"
-host = "192.168.180.15:8080"
+#host = "192.168.180.15:8080"
+host = "localhost:8080"
 typeId = "RENVROS.TEST.DEVICE6"
 name = "renvros2-tester6"
 version = "1.0.0"

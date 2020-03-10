@@ -13,9 +13,10 @@ from nav2_msgs.action import NavigateToPose
 #from renvros2_demo_msgs.action import Fibonacci
 
 #host = "192.168.1.24:8080"
-host = "192.168.170.219:8080"
+host = "localhost:8080"
+#host = "192.168.170.219:8080"
 #host = "192.168.128.157:8080"
-host = "192.168.180.15:8080"
+#host = "192.168.180.15:8080"
 typeId = "RENVROS.TEST.DEVICE5"
 name   = "renvros2-tester5"
 version = "1.0.0"

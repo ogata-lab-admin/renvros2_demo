@@ -5,7 +5,8 @@ import renvros2
 from turtlesim.msg import Pose
 
 #host = "192.168.128.157:8080"
-host = "192.168.170.237:8080"
+#host = "192.168.170.237:8080"
+host = "localhost:8080"
 typeId = "RENVROS.TEST.DEVICE2"
 name   = "renvros2-tester2"
 version = "1.0.0"
